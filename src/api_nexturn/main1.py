@@ -159,3 +159,4 @@ def get_ratings(category_type, n):
 
 if __name__ == "__main__":
     app.run(debug=True)
+    
