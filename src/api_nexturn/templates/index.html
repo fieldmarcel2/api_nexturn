@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+</head>
+<body>
+    <h1>weather data</h1>
+
+    {{city_list[i]['name']}}
+    {%for item in city_list %}
+
+    <a href="/{{item['lat']}}/{{item['lon']}}">{{item['name']}}</a>
+    { %endfor %}
+
+  
+    <!-- <div>{{city}}</div>
+    <div>{{temp}}</div>
+    <div>{{weather}}</div> -->
+
+    
+</body>
+</html>
